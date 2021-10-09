@@ -240,11 +240,12 @@ body {
     color: grey;
 }
 
-.main_content .list-type {
+.main_content .list-tour {
     margin-top: 32px;
 }
 
-.main_content .list-type a {
+.main_content .list-tour a {
+    text-decoration: none;
     float: left;
     display: block;
     width: 31.33%;
@@ -253,28 +254,28 @@ body {
     color: black;
 }
 
-.main_content .list-type a:hover  {
+.main_content .list-tour a:hover  {
     opacity: 0.8;
     color: var(--primary-color);
 }
 
-.main_content .list-type a:nth-child(1),
-.main_content .list-type a:nth-child(4) {
+.main_content .list-tour a:nth-child(1),
+.main_content .list-tour a:nth-child(4) {
     margin-right: 2%;
 }
 
-.main_content .list-type a:nth-child(2),
-.main_content .list-type a:nth-child(5) {
+.main_content .list-tour a:nth-child(2),
+.main_content .list-tour a:nth-child(5) {
     margin-left: 1%;
     margin-right: 1%;
 }
 
-.main_content .list-type a:nth-child(3),
-.main_content .list-type a:nth-child(6) {
+.main_content .list-tour a:nth-child(3),
+.main_content .list-tour a:nth-child(6) {
     margin-left: 2%;
 }
 
-.main_content .list-type img {
+.main_content .list-tour img {
     object-fit: cover;
     object-position: center;
     width: 100%;
